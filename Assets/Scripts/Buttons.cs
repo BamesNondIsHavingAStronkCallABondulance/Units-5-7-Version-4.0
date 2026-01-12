@@ -26,4 +26,9 @@ public class Buttons : MonoBehaviour
         Sound s = Array.Find(AudioManager.instance.sounds, sound => sound.name == name);
         s.sfxSource.Play();
     }
+
+    public void Quit()
+    {
+        Application.Quit();
+    }
 }

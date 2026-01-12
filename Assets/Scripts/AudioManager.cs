@@ -10,7 +10,7 @@ public class AudioManager : MonoBehaviour
 
     [SerializeField] AudioMixer mixer;
 
-    public const string MUSIC_KEY = "musicVolume";
+    public const string MUSIC_KEY = "MusicVolume";
     public const string SFX_KEY = "SFXVolume";
 
     bool frontend = true;
